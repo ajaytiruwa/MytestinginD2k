@@ -34,7 +34,7 @@ public class BaseClass {
 		lg=new LoginT(Driver, ex.getData(0, 1, 0), ex.getData(0, 1, 1));
 		
 	}
-	@Test(priority=1,description="for Excel Output Utility")
+	@Test(priority=1,description="New for Excel Output Utility")
 	public void exceloutpt() throws InterruptedException {
 		et=new ExceloutputTest(Driver);
 		
