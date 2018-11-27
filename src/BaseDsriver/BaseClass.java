@@ -26,7 +26,7 @@ public class BaseClass {
 		Driver.manage().timeouts().implicitlyWait(500, TimeUnit.SECONDS);
 		Driver.get("http://192.168.1.41:8445/APP/Login");
 		Driver.manage().timeouts().implicitlyWait(2000, TimeUnit.SECONDS);
-		
+		System.out.println("Ajay Tiruwa");
 	}
 	@Test(priority=0,description="Login into system")
 	public void login() {
